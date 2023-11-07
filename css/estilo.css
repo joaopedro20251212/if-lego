@@ -1,0 +1,82 @@
+.pai{
+	width: 100%;
+	height: 30vh;
+	background-color: purple;
+
+	display: flex; /*transforma em flex container*/
+	flex-direction: row; /*define a direção dos filhos*/
+	flex-wrap: wrap;/*perimite quebra de linha */
+	justify-content: space-between;/*alinha os filhos em relação ao eixo principal*/
+	align-items: center;
+}
+.filho1{
+	width: 15%;
+	height: 20vh;
+	background-color: darkgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filho1 img{
+	height: 50%;
+	width: 30%;
+}
+.filho2{
+	width: 85%;
+	height: 20vh;
+	background-color: darkgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filho3{
+	width: 100%;
+	height: 15vh;
+	background-color: lightgray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filho3 img{
+	width: 50%;
+	height: 80%;
+}
+.filho4{
+	width: 70%;
+	height: 60vh;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filho4 img{
+	width: 60%;
+	height: 70%;
+}
+.filho5{
+	width: 30%;
+	height: 60vh;
+	background-color: white;
+}
+.filho5 img{
+	width: 100%;
+	height: 25%;
+}
+.filho6{
+	width: 100%;
+	height: 20vh;
+	background-color: darkgreen;
+}
+@media(max-width: 760px){
+	.filho1{
+		width: 80px;
+	}
+	.filho3{
+		display: none;
+	}
+	.filho4{
+		width: 600%;
+	}
+	.filho5{
+		width: 420px;
+	}
